@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Ỳ̴̟͓O̴̖̠̯͇̗̊̅͗̿͊̈́U̵̘͕̓̌̇ ̷͇͚̥͆̓̀̓̒͝W̷̜̼̝̽͊̈͂͑I̶̛͖͂̈́͝Ĺ̵̪̘̖̦͇̠̓̂L̶̻̙̟͘ ̶̮̪̃̄̉̍̄F̶̞͛̈́̀̽͌̑͜L̸͓̯̖̳̍̊̿͑̽̚O̴̥̥͚͍̐̌͑̚A̸̖̯͈̽̉̅̏͊̕T̸̜̖̝̗͚͒ ̴̛̲̄͐T̶̺͚̰͚̗͋̄̌̈́̎̂Ǫ̷̛͕̹͔͒̿Ŏ̵̰̹͉̒͑̍͊...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+	let size = 200;
+	let color = 0;
+
+	function reduce(){
+		if (size > 200)
+			size -= 10;
+		document.getElementById('baloon').style.width = size + "px";
+		document.getElementById('baloon').style.height = size + "px";
+		if (color == 0)
+		{
+			document.getElementById('baloon').style.backgroundColor = "green";
+			color = 2;
+		}
+		else if(color == 1)
+		{
+			document.getElementById('baloon').style.backgroundColor = "blue";
+			color = 0;
+		}
+		else if(color == 2)
+		{
+			document.getElementById('baloon').style.backgroundColor = "red";
+			color = 1;
+		}
+	}
+	function grow() {
+		if (size < 415)
+			size += 10;
+		else
+			size = 200;
+		document.getElementById('baloon').style.width = size + "px";
+		document.getElementById('baloon').style.height = size + "px";
+		if (color == 0)
+		{
+			document.getElementById('baloon').style.backgroundColor = "green";
+			color = 1;
+		}
+		else if(color == 1)
+		{
+			document.getElementById('baloon').style.backgroundColor = "blue";
+			color = 2;
+		}
+		else if(color == 2)
+		{
+			document.getElementById('baloon').style.backgroundColor = "red";
+			color = 0;
+		}
+	}
+</script>	
+</head>
+<body>
+	<div id="baloon" style="margin:100px; width:200px; height:200px; background-color:red; border-radius: 50%;" onclick="grow()" onmouseout="reduce()">
+	</div>
+	<div id="cuerda" style="position:fixed; top:200px ; left:200px; background-color:black; width:2px; height: 1000px; z-index: -1;"></div>
+	<div style="position:fixed; top: 72%">
+		<img src="https://www.pngmart.com/files/13/Pennywise-Face-PNG-Pic.png" width="600px">
+	</div>	
+</body>

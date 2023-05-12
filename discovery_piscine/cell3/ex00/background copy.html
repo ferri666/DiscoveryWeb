@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>¡¡¡DISCO!!!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="background.css">
+</head>
+<body id="cap">
+	<div>
+		<button id="btn" onclick="grow()">¡¡DISCO TIME!!</button>
+	</div>
+</body>
+<script>
+  function grow()
+  {
+    document.getElementById('btn').style.fontSize = Math.floor(Math.random()*50) + "px";
+  }
+</script>

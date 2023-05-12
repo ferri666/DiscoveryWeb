@@ -1,0 +1,52 @@
+body, html {
+	height: 100%;
+	margin:0px;
+	font-family: 'Russo One';
+  }
+  
+a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+.parallax {
+	/* The image used */
+	background-image: url('https://wiki.gamedetectives.net/images/thumb/5/53/PetscopLogo.png/400px-PetscopLogo.png');
+  
+	/* Full height */
+	height: 100%; 
+  
+	/* Create the parallax scrolling effect */
+	text-align: center;
+	line-height: 1000px;
+	color:whitesmoke;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size:36px;
+}
+
+.parallax2 {
+	/* The image used */
+	background-image: url('https://i.kym-cdn.com/entries/icons/original/000/023/060/Petscop_7-29_screenshot.png');
+  
+	/* Full height */
+	height: 100%; 
+  
+	/* Create the parallax scrolling effect */
+	text-align: center;
+	line-height: 1000px;
+	color:whitesmoke;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size:36px;
+}
+
+.text {
+	text-align: center;
+	padding:250px;
+	height:333px;
+	background-color:black;
+	color:whitesmoke;
+	font-size:36px;
+}

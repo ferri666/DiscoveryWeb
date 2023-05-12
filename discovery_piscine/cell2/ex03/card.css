@@ -1,0 +1,55 @@
+*{
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photo{
+	padding:20px 30px 0px;
+}
+
+table{
+	display:flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 460px;
+	box-shadow: 0px 0px 9px 1px black ;
+	border-collapse: collapse;
+}
+
+.name{
+	font-size: 37px;
+	padding: 10px 0px 15px 0px;
+}
+a{
+	text-decoration: none;
+	color:aliceblue;
+}
+
+.role{
+	font-size: 20px;
+	color: rgb(27, 26, 26);
+	padding: 10px 0px 10px 0px;
+}
+
+.place{
+	font-size: 16px;
+	color: rgb(56, 55, 55);
+	padding: 5px 0px 5px 0px;
+	height: 20px;
+}
+
+.social{
+	padding: 5px;
+}
+
+.icon{
+	width: 60px;
+}
+
+.contact {
+	margin: 0px;
+	height: 60px;
+	font-size: 33px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: blueviolet;
+}

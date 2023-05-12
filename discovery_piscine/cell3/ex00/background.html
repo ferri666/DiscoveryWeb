@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>¡¡¡DISCO!!!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="background.css">
+</head>
+<body id="cap">
+	<div>
+		<button id="btn" onclick="document.body.style.backgroundColor='rgb('+Math.floor(Math.random()*255)+', '+Math.floor(Math.random()*255)+', '+Math.floor(Math.random()*255)+')'">¡¡DISCO TIME!!</button>
+	</div>
+</body>
+<script>
+  function grow()
+  {
+    let rand = Math.floor(Math.random()*255);
+    document.getElementById('btn').style.fontSize = + "px";
+  }
+</script>
